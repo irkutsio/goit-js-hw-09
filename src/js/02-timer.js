@@ -21,7 +21,6 @@ flatpickr(inputEl, {
   onClose(selectedDates) {
     if (Date.now() > selectedDates[0]) {
       btnStartEl.disabled = true;
-      // alert('Please choose a date in the future');
       Notiflix.Notify.warning('Please choose a date in the future')
     } else {
       btnStartEl.disabled = false;

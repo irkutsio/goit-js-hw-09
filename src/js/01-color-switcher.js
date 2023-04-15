@@ -24,3 +24,4 @@ function onClickStop() {
   startBtnEl.disabled = false;
   stopBtnEl.disabled = true;
 }
+
