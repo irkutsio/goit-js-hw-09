@@ -39,6 +39,7 @@ const intervalId = setInterval(() => {
   const countdownTimer = selectedDate.getTime() - currentDate;
   if (countdownTimer <= 0) {
     clearInterval(intervalId)
+    return;
 }
 const { days, hours, minutes, seconds } = convertMs(countdownTimer);
 daysEl.textContent = `${days}`
