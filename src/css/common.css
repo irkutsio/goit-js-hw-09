@@ -16,3 +16,29 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+}
+
+.value{
+  font-size: 50px;
+  color: rgb(8, 8, 36);
+}
+
+.label {
+  font-size: 24px;
+  margin-right: 32px;
+  color: #212121;
+}
+
+.timer-btn {
+  padding: 4px 16px;
+}
+
+
+
+#datetime-picker {
+  height: 27px;
+  background-color: rgb(247, 247, 241);
+}
